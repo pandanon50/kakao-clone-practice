@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/ec60a0f11e.js" 
     crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="status-bar">
@@ -24,17 +25,17 @@
         </div>
     </div>
     <header class="header">
-        <div class="header__header-coulmn">
-            <h1 class="header-column__title">Main</h1>
+        <div class="header__header-column">
+            <h1 class="header-column__title">chats</h1>
         </div>
-        <div class="header__header-coulmn">
-            <span class="header-coulmn__icon">
+        <div class="header__header-column">
+            <span class="header-column__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <span class="header-coulmn__icon">
+            <span class="header-column__icon">
                 <i class="far fa-comment"></i>
             </span>
-            <span class="header-coulmn__icon">
+            <span class="header-column__icon">
                 <i class="fas fa-cog"></i>
             </span>
 
@@ -43,41 +44,49 @@
     <main class="chats">
         <ul class="chats_list">
             <a href="chat.html">
-                <li class="chats__chat chat">
-                    <div class="chat__column">
-                        <img src="images/avatar2.jpg" alt=""width="200" height="200"class="chat__avatar">
-                     <div class="chat__content">
-                         <span class="chat__username">
-                             Lee
-                         </span>
-                         <span class="chat__preview">
-                             Hi there!
-                         </span>
-                     </div>
-                    </div>
-                    
-                    <div class="chat__column">
-                        <span class="chat__timestamp">
-                         Yesterday
+                <li class="chats__chat friend friend--lg">
+                    <div class="friend__column">
+                        <img src="images/avatar2.jpg"  class="friend__avatar">
+                        <div class="friend__content">
+                        <span class="friend__name">
+                            LYnn
                         </span>
+                        <sapn class="friend__bottom-text">
+                            Going home!
+                        </sapn>
+                        </div>
                     </div>
-                 </li>
+                    <div class="friend__column">
+                        <div class="friend__now-listening">
+                            <span class="chat__timestamp">
+                                March 8
+                            </span>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="chats__chat chat"></li>
             </a>
         </ul>
     </main>
 
     <nav class="nav">
-        <ul class="nav-coulnm">
-            <li class="nav-coulnm"><a href="friends.html">
-                <i class="far fa-user"></i>
+        <ul class="nav__list">
+            <li class="nav__list-item">
+            <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
             </a></li>
-            <li class="nav-coulnm"><a href="index.html">
-                <i class="fas fa-comment"></i>
-            </a></li>
-            <li class="nav-coulnm"><a href="find.html">
+            <li class="nav__list-item">
+                <a href="index.html"class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="fas fa-comment"></i>
+                </a>
+                
+            </li>
+            <li class="nav__list-item"><a href="find.html"class="nav__list-link">
                 <i class="fas fa-search"></i>
             </a></li>
-            <li class="nav-coulnm"><a href="more.html">
+            <li class="nav__list-item"><a href="more.html"class="nav__list-link">
                 <i class="fas fa-ellipsis-h"></i>
             </a></li>
         </ul>
