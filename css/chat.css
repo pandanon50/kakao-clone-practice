@@ -145,7 +145,21 @@
     height: 30px;
     border-radius: 15px;
     margin-right: 15px;
+    animation: spin 0.5s linear infinite;
 }
+
+@keyframes spin{
+    from{
+        transform: none;
+    }
+    to{
+        transform:  rotateY(1turn);
+    }
+}
+
+
+
+
 
 .message .message__bubble{
     background-color: white;

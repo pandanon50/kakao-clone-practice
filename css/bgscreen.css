@@ -1,0 +1,22 @@
+.bgScreen{
+    z-index: 9;
+    background-color:#F58734;
+    color: white;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media screen and (min-width:560px){
+    .bgScreen{
+        display: flex;
+    }
+
+}
